@@ -1,15 +1,13 @@
+import Options from "./Options";
 
-import Options from "./Options"
-
-function Question({ questions }) {
+function Question({ questions, dispatch, answer }) {
   console.log(questions);
   return (
     <div>
       <h4>{questions.question}</h4>
-      <Options questions={questions}/>
+      <Options answer={answer} dispatch={dispatch} questions={questions} />
     </div>
   );
 }
-
 
 export default Question;
