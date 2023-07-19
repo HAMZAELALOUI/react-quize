@@ -6,6 +6,8 @@ function FinishScreen({points,maxPossiblePoints,highscore,dispatch}) {
    if(percetage>=50 && percetage < 80) emoji="🙂";
    if(percetage>=0 && percetage < 50) emoji="😕";
    if(percetage === 0) emoji='🤦‍♂️';
+   let b;
+
    console.log(emoji)
    console.log(percetage)
   return (
