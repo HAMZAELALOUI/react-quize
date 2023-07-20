@@ -6,4 +6,4 @@ git commit -m "%~1"
 git push
 
 REM Restore .gitignore file
-git restore --staged .gitignore 
+git restore --staged .gitignore  
